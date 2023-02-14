@@ -1,0 +1,62 @@
+:root {
+    --form-header-background: #262626;
+    --form-background: #525252;
+    --inputBox-color: #f5f5f5;
+    --label-text-color: #f5f5f5;
+    --button-color: #14b8a6;
+	--button-color-2: #fcd34d;
+	--button-color-3: #f87171;
+	--header-font: 'Asul';
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--label-text-color);
+	font-family: 'Open Sans', sans-serif;
+	min-height: 100vh;
+	margin: 0;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pageHeader {
+	background-color: var(--form-header-background);
+	width: 100%;
+	color: var(--inputBox-color);
+	font-weight: 700;
+	font-size: 2em;
+	text-align: center;
+    font-family: var(--header-font);
+}
+
+.pageFooter {
+	background-color: var(--form-header-background);
+	width: 100%;
+	color: var(--inputBox-color);
+	font-style: italic;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.footer-img {
+	height: 2em;
+	width: 2em;
+}
+
+.cardHolder {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+    cursor: pointer;
+}
